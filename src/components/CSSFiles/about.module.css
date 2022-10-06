@@ -1,0 +1,42 @@
+.outer {
+  text-align: center;
+  font-size: x-large;
+  font-family: "Montserrat", sans-serif;
+  margin: 7% 5% 0% 5%;
+}
+
+
+.chronology {
+  text-align: center;
+  font-size: x-large;
+  font-family: "Montserrat", sans-serif;
+  margin: 2% 5% 0% 5%;
+  position: relative;
+}
+
+.timeline {
+  text-align: center;
+  left: -20%;
+  position: absolute;
+}
+
+@media only screen and (max-width:425px) {
+  .outer{
+    margin: 15% 5% 0% 5%;
+    padding:5%;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .outer{
+    margin: 25% 5% 0% 5%;
+    padding: 5%;
+  }
+}
+
+@media only screen and (max-width:1200px) {
+  .outer{
+    margin: 7% 5% 0% 5%;
+    padding: 5%;
+  }
+}
