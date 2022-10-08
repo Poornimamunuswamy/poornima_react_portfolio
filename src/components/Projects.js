@@ -10,6 +10,7 @@ import Button from "@mui/material/Button";
 import todo from '../todo.jpg';
 import Grid from "@mui/material/Grid";
 import insta from '../insta.png';
+import pirate from '../pirate.webp';
 const Projects = () =>{
  return (
    <Fragment>
@@ -54,6 +55,45 @@ const Projects = () =>{
                  <Button
                    size="small"
                    href="https://github.com/Poornimamunuswamy/todo_list"
+                   target="_blank"
+                 >
+                   View Source Code
+                 </Button>
+               </CardActions>
+             </Card>
+           </Paper>
+         </Grid>
+
+         <Grid item xs={6}>
+           <Paper elevation={6}>
+             <Card>
+               <CardMedia
+                 component="img"
+                 height="250"
+                 image={pirate}
+                 alt="to-do-list"
+               />
+               <CardContent sx={{pb:'8'}}>
+                 <Typography gutterBottom variant="h5" component="div">
+                   Pirate Translator
+                 </Typography>
+                 <Typography variant="body2" color="text.secondary">
+                   A simple translator app built using Vanilla JS. This project
+                   is implemented with the help of an API for translation. This
+                   lets the user to enter a text and returns the translated text. Styling is done using CSS.
+                 </Typography>
+               </CardContent>
+               <CardActions>
+                 <Button
+                   size="small"
+                   href="https://translator-using-js.netlify.app/"
+                   target="_blank"
+                 >
+                   View Project
+                 </Button>
+                 <Button
+                   size="small"
+                   href="https://github.com/Poornimamunuswamy/Translator"
                    target="_blank"
                  >
                    View Source Code
