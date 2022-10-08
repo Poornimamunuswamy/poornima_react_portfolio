@@ -18,7 +18,7 @@ const About = ()=>{
         <section className={classes.outer}>
           <h1>ABOUT ME</h1>
           <p>
-            An ardent techie and a graduate with majors in Computer
+            An avid techie and a graduate with majors in Computer
             Science and Engineering.
           </p>
           <p>
